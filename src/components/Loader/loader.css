@@ -1,0 +1,15 @@
+
+  .animate {
+     animation : shimmer 4s infinite linear;
+     background: linear-gradient(to right, #eff1f3 4%, #e2e2e2 25%, #eff1f3 36%);
+      background-size: 100vw 100%;
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: -100vw 0;
+    }
+    100% {
+      background-position: 100vw 0;
+    }
+  }
